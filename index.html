@@ -29,6 +29,7 @@
 
     window.tracking.saveTrackingId(trackingId);
     alert('Cookieにtracking_idを保存しました！' + window.tracking.getTrackingId());
+    alert('Cookieの有効期限は、' + window.tracking.getTrackingIdExpiredAt());
   };
 </script>
 <body>
